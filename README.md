@@ -1,1 +1,1 @@
-tactics.github.io
+www.lorgon.tk
