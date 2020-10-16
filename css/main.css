@@ -1,0 +1,198 @@
+html, body{
+   min-height: 100%;
+}
+body {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#242526+0,13171b+100 */
+	margin: 0;
+	padding: 0;
+	background: #242526; /* Old browsers */
+	background: -moz-linear-gradient(top,  #242526 0%, #13171b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #242526 0%,#13171b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #242526 0%,#13171b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242526', endColorstr='#13171b',GradientType=0 ); /* IE6-9 */
+}
+p, h1, h2, h3{
+	font-family: Montserrat;
+	font-style: normal;
+}
+img{
+	width: 80%;
+	height: 80%;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.img-button{
+  border:none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.img-button
+{
+  color: #fff;
+  background: #333538;
+  transition: 0.2s;
+}
+.img-button:hover{
+  background: #45474A;
+}
+.img-button:active{
+  background: #333538;
+}
+.menu{
+	position: absolute;
+	width: 108px;
+	height: 544px;
+	left: 0px;
+	top: 100px;
+
+}
+.A1{
+	position: absolute;
+	width: 376px;
+	height: 60px;
+	left: 120px;
+	top: 75px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.B1{
+	position: absolute;
+	width: 376px;
+	height: 150px;
+	left: 120px;
+	top: 203px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.B2{
+	position: absolute;
+	width: 473px;
+	height: 204px;
+	left: 120px;
+	top: 415px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.mirage-txt{
+	position: absolute;
+	width: 169px;
+	height: 20px;
+	left: 8px;
+
+	font-weight: 600;
+	font-size: 45px;
+	
+
+	color: #FFFFFF;
+}
+#a1-icon{
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	left: 120px;
+	top: 175px;
+}
+#b1-icon{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 120px;
+	top: 387px;
+}
+#b1-jungle{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 229px;
+	top: 387px;
+}
+#b1-city{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 338px;
+	top: 387px;
+}
+#b1-con{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 447px;
+	top: 387px;
+}
+#b2-icon{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 120px;
+	top: 598px;
+}
+#b2-con{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 229px;
+	top: 598px;
+}
+#b2-short{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 338px;
+	top: 598px;
+}
+#b2-start{
+	position: absolute;
+	width: 99px;
+	height: 40px;
+	left: 447px;
+	top: 598px;
+}
+#fullImg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(20, 23, 27, 0.9);
+}
+#pos-img{
+	position: absolute;
+	width: 980px;
+	height: 550px;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+

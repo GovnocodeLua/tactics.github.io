@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+		<link href="./css/main.css" rel="stylesheet" />
+		<script src="./js/main.js"></script>
+		<title>Tacticks</title>
+	</head>
+	<body>
+		<h1 class="mirage-txt">Mirage</h1>
+		<div>
+			<p class="A1">4 ложных на A плент<br>- 5 игроков на А плент</p>
+			<p class="B1">1 ранний смок в коннектор<br>1 смок в джангл<br>1 смок в сити<br>- 3 игроков на А плент<br>- 2 игрока на Б плент</p>
+			<p class="B2">1 глубокий смок в коннектор<br>1 смок на шорт что-бы зайти в него<br>1 смок на старт<br>- 3 игроков на парапет<br>- 2 игрока на Б апсы</p>
+			<div>
+			  <button class="img-button" id="a1-icon" onclick="openIcon()">ICON</button>
+			  
+			</div>
+			<div>
+			  <button class="img-button" id="b1-icon" onclick="openIcon()">ICON</button>
+			  <button class="img-button" id="b1-jungle" onclick="openIcon()">JUNGLE</button>
+			  <button class="img-button" id="b1-city" onclick="openIcon()">CITY</button>
+			  <button class="img-button" id="b1-con" onclick="openIcon()">CON</button>
+			</div>
+			<div>
+			  <button class="img-button" id="b2-icon" onclick="openIcon()">ICON</button>
+			  <button class="img-button" id="b2-con" onclick="openIcon()">CON</button>
+			  <button class="img-button" id="b2-short" onclick="openIcon()">SHORT</button>
+			  <button class="img-button" id="b2-start" onclick="openIcon()">START</button>
+			</div>
+		</div>
+		<img src="./images/main.png" alt="Меню плентов" class="menu">
+		<div id="fullImg" hidden="true" onclick="closeImage()">
+			<img id="pos-img">
+		</div>
+	</body>
+</html>
