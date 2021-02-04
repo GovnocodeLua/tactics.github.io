@@ -10,7 +10,7 @@
     height: -1;
     background: rgba(43, 43, 43, 0.8);
     border-radius: 3px;
-    backdrop-filter: blur(27px)
+    backdrop-filter: blur(17px)
 }
 p{
 	position: absolute;
@@ -50,6 +50,11 @@ p{
 }
 a{
 	text-decoration: none;
+	transition: 0.5s;
+}
+a:hover{
+	filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.25));
+	transition: 0.5s;
 }
 #gps {
 	position: absolute;
