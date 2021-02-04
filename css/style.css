@@ -1,11 +1,15 @@
 #rect {
+	margin: auto;
+
 	position: absolute;
 
-	margin-left: 35%;
+	margin-left: 5%;
 	margin-top: 5%;
 
-    width: 530px;
-    height: 108px;
+	padding-right: 24px;
+
+    width: -1;
+    height: -1;
     background: rgba(43, 43, 43, 0.8);
     border-radius: 3px;
     backdrop-filter: blur(27px)
@@ -59,4 +63,5 @@ a{
 .icons{
 	margin-top: 24px;
 	margin-left: 24px;
+	margin-bottom: 24px;
 }
