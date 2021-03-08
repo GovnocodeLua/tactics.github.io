@@ -11,7 +11,7 @@ function openInNewTab(url) {
         const encoded = encodeURI(uri);
         console.log(encoded);
         //openInNewTab(encoded);
-        document.location.href = encoded;
+        window.open(encoded, '_self');
       }
     }
   });
