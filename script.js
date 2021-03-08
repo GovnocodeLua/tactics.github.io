@@ -10,7 +10,8 @@ function openInNewTab(url) {
         const uri = 'https://www.google.ru/search?q='+document.getElementsByTagName("input")[0].value;
         const encoded = encodeURI(uri);
         console.log(encoded);
-        openInNewTab(encoded);
+        //openInNewTab(encoded);
+        document.location.href = encoded;
       }
     }
   });
